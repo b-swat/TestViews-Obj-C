@@ -60,6 +60,14 @@
                                     </segue>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65a-Na-4ut">
+                                <rect key="frame" x="44" y="482" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ButtonXib"/>
+                                <connections>
+                                    <segue destination="nKO-cd-ixE" kind="show" id="SeY-xt-ANS"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ec-CE-gY7">
                                 <rect key="frame" x="44" y="520" width="102" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -68,12 +76,12 @@
                                     <segue destination="qTm-6Q-ASZ" kind="show" id="bBc-dF-sWA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65a-Na-4ut">
-                                <rect key="frame" x="44" y="482" width="68" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWj-9o-Yxf">
+                                <rect key="frame" x="44" y="174" width="42" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="ButtonXib"/>
+                                <state key="normal" title="Pages"/>
                                 <connections>
-                                    <segue destination="nKO-cd-ixE" kind="show" id="SeY-xt-ANS"/>
+                                    <segue destination="KKZ-s7-tie" kind="show" id="Hxk-pF-mby"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -145,6 +153,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tqR-sg-hKu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1910" y="515"/>
+        </scene>
+        <!--PageView-->
+        <scene sceneID="gj4-l6-vcB">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PageView" id="KKZ-s7-tie" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3kN-tl-uOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1762" y="650"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yUT-be-HTh">
@@ -238,6 +254,13 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nb9-6s-cP8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1608.8" y="31.934032983508249"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="axX-xo-J2J">
+            <objects>
+                <viewControllerPlaceholder id="byU-RR-a5g" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRm-60-ucE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

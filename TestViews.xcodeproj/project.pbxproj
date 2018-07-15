@@ -23,10 +23,13 @@
 		596CA1EC20FB004C006B7F33 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596CA1EA20FB004C006B7F33 /* XibViewController.xib */; };
 		596CA1EE20FB08B5006B7F33 /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 596CA1ED20FB08B5006B7F33 /* XibView.xib */; };
 		596CA1F120FB08EE006B7F33 /* XibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 596CA1F020FB08EE006B7F33 /* XibView.m */; };
+		596CA1F320FB11A9006B7F33 /* TabsStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596CA1F220FB11A9006B7F33 /* TabsStory.storyboard */; };
+		596CA1F720FB1D3E006B7F33 /* PageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596CA1F620FB1D3E006B7F33 /* PageView.storyboard */; };
+		596CA1FA20FB1FBE006B7F33 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596CA1F920FB1FBE006B7F33 /* PageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5939217920F9DB67004560D0 /* qqqqq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qqqqq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5939217920F9DB67004560D0 /* TestViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5939217C20F9DB68004560D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5939217D20F9DB68004560D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5939217F20F9DB68004560D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -52,6 +55,10 @@
 		596CA1ED20FB08B5006B7F33 /* XibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
 		596CA1EF20FB08EE006B7F33 /* XibView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XibView.h; sourceTree = "<group>"; };
 		596CA1F020FB08EE006B7F33 /* XibView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibView.m; sourceTree = "<group>"; };
+		596CA1F220FB11A9006B7F33 /* TabsStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabsStory.storyboard; sourceTree = "<group>"; };
+		596CA1F620FB1D3E006B7F33 /* PageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PageView.storyboard; sourceTree = "<group>"; };
+		596CA1F820FB1FBE006B7F33 /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		596CA1F920FB1FBE006B7F33 /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +83,7 @@
 		5939217A20F9DB67004560D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5939217920F9DB67004560D0 /* qqqqq.app */,
+				5939217920F9DB67004560D0 /* TestViews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +116,10 @@
 				596CA1ED20FB08B5006B7F33 /* XibView.xib */,
 				596CA1EF20FB08EE006B7F33 /* XibView.h */,
 				596CA1F020FB08EE006B7F33 /* XibView.m */,
+				596CA1F220FB11A9006B7F33 /* TabsStory.storyboard */,
+				596CA1F620FB1D3E006B7F33 /* PageView.storyboard */,
+				596CA1F820FB1FBE006B7F33 /* PageViewController.h */,
+				596CA1F920FB1FBE006B7F33 /* PageViewController.m */,
 			);
 			path = qqqqq;
 			sourceTree = "<group>";
@@ -116,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5939217820F9DB67004560D0 /* qqqqq */ = {
+		5939217820F9DB67004560D0 /* TestViews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5939218F20F9DB6D004560D0 /* Build configuration list for PBXNativeTarget "qqqqq" */;
+			buildConfigurationList = 5939218F20F9DB6D004560D0 /* Build configuration list for PBXNativeTarget "TestViews" */;
 			buildPhases = (
 				5939217520F9DB67004560D0 /* Sources */,
 				5939217620F9DB67004560D0 /* Frameworks */,
@@ -128,9 +139,9 @@
 			);
 			dependencies = (
 			);
-			name = qqqqq;
+			name = TestViews;
 			productName = qqqqq;
-			productReference = 5939217920F9DB67004560D0 /* qqqqq.app */;
+			productReference = 5939217920F9DB67004560D0 /* TestViews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5939217420F9DB67004560D0 /* Build configuration list for PBXProject "qqqqq" */;
+			buildConfigurationList = 5939217420F9DB67004560D0 /* Build configuration list for PBXProject "TestViews" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -160,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5939217820F9DB67004560D0 /* qqqqq */,
+				5939217820F9DB67004560D0 /* TestViews */,
 			);
 		};
 /* End PBXProject section */
@@ -176,6 +187,8 @@
 				5939218620F9DB6D004560D0 /* Assets.xcassets in Resources */,
 				5939219E20FA0784004560D0 /* NavController.storyboard in Resources */,
 				596CA1EC20FB004C006B7F33 /* XibViewController.xib in Resources */,
+				596CA1F720FB1D3E006B7F33 /* PageView.storyboard in Resources */,
+				596CA1F320FB11A9006B7F33 /* TabsStory.storyboard in Resources */,
 				5939218420F9DB68004560D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +203,7 @@
 				596CA1F120FB08EE006B7F33 /* XibView.m in Sources */,
 				596CA1EB20FB004C006B7F33 /* XibViewController.m in Sources */,
 				5939218120F9DB68004560D0 /* ViewController.m in Sources */,
+				596CA1FA20FB1FBE006B7F33 /* PageViewController.m in Sources */,
 				5939219720F9FCF9004560D0 /* My2TableViewController.m in Sources */,
 				5939218C20F9DB6D004560D0 /* main.m in Sources */,
 				596CA1E720FAFF39006B7F33 /* SecondViewController.m in Sources */,
@@ -368,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5939217420F9DB67004560D0 /* Build configuration list for PBXProject "qqqqq" */ = {
+		5939217420F9DB67004560D0 /* Build configuration list for PBXProject "TestViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5939218D20F9DB6D004560D0 /* Debug */,
@@ -377,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5939218F20F9DB6D004560D0 /* Build configuration list for PBXNativeTarget "qqqqq" */ = {
+		5939218F20F9DB6D004560D0 /* Build configuration list for PBXNativeTarget "TestViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5939219020F9DB6D004560D0 /* Debug */,
