@@ -13,8 +13,18 @@
         <!--Page View Controller-->
         <scene sceneID="X49-dW-i0Q">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="S4I-jC-YCh" customClass="PageViewController" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="S4I-jC-YCh" customClass="PageViewController" sceneMemberID="viewController">
+                    <connections>
+                        <outlet property="pageControl" destination="Kmt-H9-0Px" id="Upj-0c-4tw"/>
+                    </connections>
+                </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jqx-Al-bi4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" numberOfPages="2" id="Kmt-H9-0Px">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <color key="pageIndicatorTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="0.86488514262933114" green="0.91865689766839376" blue="0.85067060262111172" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </pageControl>
             </objects>
             <point key="canvasLocation" x="-92" y="18"/>
         </scene>
